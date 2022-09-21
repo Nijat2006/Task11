@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#slider img{
+    width: 100%;
+}
+
+#slider{
+    position: relative;
+}
+
+.next{
+    color: aliceblue;
+    position: absolute;
+    top:50%;
+    right:20px;
+    font-size: 40px;
+    border:1px solid gray;
+    border-radius: 100%;
+    padding: 4px 9px;
+    opacity: 0.8;
+
+}
+
+.prev{
+    position: absolute;
+    top: 50%;
+    left:20px;
+    font-size: 40px;
+    border:1px solid gray;
+    border-radius: 100%;
+    padding: 4px 9px;
+    opacity: 0.8;
+    color: aliceblue;
+}
